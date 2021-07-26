@@ -13,6 +13,11 @@ export const Container = styled.main`
   div {
     margin-right: 3rem;
   }
+
+  @media (max-width: 1440px) {
+  align-items: center;
+    flex-direction: column;
+  }
 `
 
 export const Hero = styled.section`
